@@ -2,10 +2,15 @@
 
 menu = """
 
+================= CAIXA ELETRÔNICO =================
+Escolha uma das opções abaixo:
+
 [d] Depositar
 [s] Sacar
 [e] Extrato
 [q] Sair
+____________________________________________________
+
 
 => """       # Aqui as 3" finalizam a Sring
 
@@ -65,6 +70,7 @@ while True:   # Causa Loop Infinito a não ser que interrompido (elif q)
 
     elif opcao == "q":
         print("Obrigado por utilizar nossos serviços!!! \n")
+        print()
         break
 
     else:
